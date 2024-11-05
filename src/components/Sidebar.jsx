@@ -6,7 +6,7 @@ import collectionIcon from "../assets/collections.svg";
 
 const Sidebar = () => {
   return (
-    <div className="hidden md:w-[5%] md:flex flex-col justify-between items-center my-3 ">
+    <div className="hidden md:w-[5%] md:flex flex-col justify-between items-center my-3 h-screen ">
       <div className="h-14 w-14 flex justify-center items-center">
         <img src={loginBtn} alt="" className="h-8 w-8" />
       </div>

@@ -1,11 +1,11 @@
+import { Outlet } from "react-router-dom";
 import MobileTopBar from "./components/MobileTopBar";
-import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   return (
     <div>
       <MobileTopBar />
-      <ContactPage />
+      <Outlet />
     </div>
   );
 };
