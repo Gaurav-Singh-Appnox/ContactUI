@@ -1,10 +1,11 @@
 import WhatsappIcon from "../assets/Vector.svg";
 import ThreadIcon from "../assets/Thread.svg";
 
+
 const ContactMedia = () => {
   return (
-    <div className="my-16 ">
-      <div className="h-[1px] bg-gray-500 w-full"></div>
+    <div className="mt-16  ">
+     <div className="h-[1px] bg-gray-500 w-full md:hidden"></div>
       <div className="px-20 py-16 ">
         <div className="flex flex-col gap-6 items-center">
           <div className="w-14 h-14 flex justify-center items-center border-2 rounded-full p-3">
@@ -12,7 +13,7 @@ const ContactMedia = () => {
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-sm text-center">Preferisci usare WhatsApp?</p>
-            <p className="text-[28px] text-center font-bold">+39 331 9467237</p>
+            <p className="text-lg text-center font-bold">+39 331 9467237</p>
           </div>
         </div>
       </div>
@@ -24,7 +25,7 @@ const ContactMedia = () => {
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-sm text-center">Preferisci usare WhatsApp?</p>
-            <p className="text-[28px] text-center font-bold">
+            <p className="text-lg text-center font-bold">
               info@mediartrade.com
             </p>
           </div>

@@ -2,9 +2,11 @@ import { FaChevronDown } from "react-icons/fa";
 
 const ContactForm = () => {
   return (
-    <>
-      <div className="w-full">
-        <h1 className="text-[40px] text-center">Contattaci</h1>
+    <div>
+      <div className="w-full  mt-12 md:mt-[80px] ">
+        <h1 className="text-[40px] md:text-14 font-bold text-center">
+          Contattaci
+        </h1>
       </div>
       <form className="mt-10 flex flex-col gap-4">
         <div className="flex flex-col md:flex-row w-full gap-4">
@@ -61,7 +63,7 @@ const ContactForm = () => {
           Invia Messaggio
         </button>
       </form>
-    </>
+    </div>
   );
 };
 
