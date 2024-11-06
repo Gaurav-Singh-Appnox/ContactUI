@@ -15,7 +15,7 @@ const Sidebar = () => {
         <img src={TvIcon} alt="" />
         <img src={helpIcon} alt="" />
       </div>
-      <div className="h-14 w-14 bg-black flex justify-center items-center rounded-full">
+      <div className="h-12 w-12 bg-black flex justify-center items-center rounded-full">
         <img src={textIcon} alt="" />
       </div>
     </div>

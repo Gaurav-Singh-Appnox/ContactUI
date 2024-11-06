@@ -1,17 +1,13 @@
-import CrossTopBar from "../components/CrossTopBar";
 import KeywordSuggestion from "../components/KeywordSuggestion";
+import CrossTopBar from "../components/CrossTopBar";
 import SuggestionList from "../components/SuggestionList";
 
-const SearchPage = () => {
+const SearchinghtPage = () => {
   return (
     <div>
-      <CrossTopBar/>
+      <CrossTopBar />
       <div className="px-5 md:px-[120px] md:mt-[88px]">
-        <input
-          type="text"
-          className="text-[60px] md:text-[120px] mb-2 "
-          placeholder="Cerca"
-        />
+        <p className="text-[60px] md:text-[120px] mb-2 ">Giorgio De Ch</p>
         <div className="h-[6px] bg-gray-300 w-full md:hidden"></div>
         <KeywordSuggestion />
         <SuggestionList />
@@ -20,4 +16,4 @@ const SearchPage = () => {
   );
 };
 
-export default SearchPage;
+export default SearchinghtPage;

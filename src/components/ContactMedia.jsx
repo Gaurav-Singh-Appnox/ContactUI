@@ -5,7 +5,7 @@ import ThreadIcon from "../assets/Thread.svg";
 const ContactMedia = () => {
   return (
     <div className="mt-16  ">
-     <div className="h-[1px] bg-gray-500 w-full md:hidden"></div>
+     <div className="h-[1px] bg-gray-300 w-full md:hidden"></div>
       <div className="px-20 py-16 ">
         <div className="flex flex-col gap-6 items-center">
           <div className="w-14 h-14 flex justify-center items-center border-2 rounded-full p-3">
@@ -17,7 +17,7 @@ const ContactMedia = () => {
           </div>
         </div>
       </div>
-      <div className="h-[1px] bg-gray-500 w-full"></div>
+      <div className="h-[1px] bg-gray-300 w-full"></div>
       <div className="px-20 py-16 ">
         <div className="flex flex-col gap-6 items-center">
           <div className="w-14 h-14 flex justify-center items-center border-2 rounded-full p-3">
