@@ -8,7 +8,6 @@ import SearchResultPage from "./pages/SearchResultPage.jsx";
 import SearchinghtPage from "./pages/SearchingPage.jsx";
 import ContactMenuFilledPage from "./pages/ContactMenuFilledPage.jsx";
 import ContactConfirmedPage from "./pages/ContactConfirmedPage.jsx";
-import HomePage from "./pages/HomePage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <HomePage />,
+        element: <SearchResultPage />,
       },
       {
         path: "contactpage",
@@ -26,10 +25,6 @@ const router = createBrowserRouter([
       {
         path: "searchpage",
         element: <SearchPage />,
-      },
-      {
-        path: "searchresultpage",
-        element: <SearchResultPage />,
       },
       {
         path: "searchingpage",

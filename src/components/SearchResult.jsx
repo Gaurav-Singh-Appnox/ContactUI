@@ -7,8 +7,9 @@ import pendent from "../assets/productsImg/pendent.jpg";
 import EyeIcon from "../assets/EyeIcon.svg";
 
 const SearchResult = () => {
+  
   return (
-    <div >
+    <div>
       <p className="text-[40px] text-center md:text-[80px] font-dm-serif">
         Giorgio De Chirico
       </p>
@@ -29,15 +30,15 @@ const SearchResult = () => {
           </div>
           <div className="mt-8 flex flex-col gap-6 p-4">
             <p>Spilla in argento e oro a forma di rana stilizzata.</p>
-            <div>
+            <div className="text-sm">
               <p>Asta</p>
-              <p>Arte Moderna e Contemporanea</p>
-              <p>Milano, 21-22 Dicembre 2021</p>
+              <p className="font-bold">Arte Moderna e Contemporanea</p>
+              <p className="font-bold">Milano, 21-22 Dicembre 2021</p>
             </div>
           </div>
         </div>
         <div className="max-w-[350px] min-h-[478px] md:max-w-[316px] relative shadow-custom-all">
-        <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
+          <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
             <img src={EyeIcon} alt="" className="text-white" />
             <p>1359</p>
           </div>
@@ -46,15 +47,15 @@ const SearchResult = () => {
           </div>
           <div className="mt-8 flex flex-col gap-6 p-4">
             <p>Spilla in argento e oro a forma di rana stilizzata.</p>
-            <div>
+            <div className="text-sm">
               <p>Asta</p>
-              <p>Arte Moderna e Contemporanea</p>
-              <p>Milano, 21-22 Dicembre 2021</p>
+              <p className="font-bold">Arte Moderna e Contemporanea</p>
+              <p className="font-bold">Milano, 21-22 Dicembre 2021</p>
             </div>
           </div>
         </div>
         <div className="max-w-[350px] min-h-[478px] md:max-w-[316px] relative shadow-custom-all">
-        <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
+          <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
             <img src={EyeIcon} alt="" className="text-white" />
             <p>1359</p>
           </div>
@@ -63,15 +64,15 @@ const SearchResult = () => {
           </div>
           <div className="mt-8 flex flex-col gap-6 p-4">
             <p>Spilla in argento e oro a forma di rana stilizzata.</p>
-            <div>
+            <div className="text-sm">
               <p>Asta</p>
-              <p>Arte Moderna e Contemporanea</p>
-              <p>Milano, 21-22 Dicembre 2021</p>
+              <p className="font-bold">Arte Moderna e Contemporanea</p>
+              <p className="font-bold">Milano, 21-22 Dicembre 2021</p>
             </div>
           </div>
         </div>
         <div className="max-w-[350px] min-h-[478px] md:max-w-[316px] relative shadow-custom-all">
-        <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
+          <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
             <img src={EyeIcon} alt="" className="text-white" />
             <p>1359</p>
           </div>
@@ -80,15 +81,15 @@ const SearchResult = () => {
           </div>
           <div className="mt-8 flex flex-col gap-6 p-4">
             <p>Spilla in argento e oro a forma di rana stilizzata.</p>
-            <div>
+            <div className="text-sm">
               <p>Asta</p>
-              <p>Arte Moderna e Contemporanea</p>
-              <p>Milano, 21-22 Dicembre 2021</p>
+              <p className="font-bold">Arte Moderna e Contemporanea</p>
+              <p className="font-bold">Milano, 21-22 Dicembre 2021</p>
             </div>
           </div>
         </div>
         <div className="max-w-[350px] min-h-[478px] md:max-w-[316px] relative shadow-custom-all">
-        <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
+          <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
             <img src={EyeIcon} alt="" className="text-white" />
             <p>1359</p>
           </div>
@@ -97,15 +98,15 @@ const SearchResult = () => {
           </div>
           <div className="mt-8 flex flex-col gap-6 p-4">
             <p>Spilla in argento e oro a forma di rana stilizzata.</p>
-            <div>
+            <div className="text-sm">
               <p>Asta</p>
-              <p>Arte Moderna e Contemporanea</p>
-              <p>Milano, 21-22 Dicembre 2021</p>
+              <p className="font-bold">Arte Moderna e Contemporanea</p>
+              <p className="font-bold">Milano, 21-22 Dicembre 2021</p>
             </div>
           </div>
         </div>
         <div className="max-w-[350px] min-h-[478px] md:max-w-[316px] relative shadow-custom-all">
-        <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
+          <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
             <img src={EyeIcon} alt="" className="text-white" />
             <p>1359</p>
           </div>
@@ -114,15 +115,15 @@ const SearchResult = () => {
           </div>
           <div className="mt-8 flex flex-col gap-6 p-4">
             <p>Spilla in argento e oro a forma di rana stilizzata.</p>
-            <div>
+            <div className="text-sm">
               <p>Asta</p>
-              <p>Arte Moderna e Contemporanea</p>
-              <p>Milano, 21-22 Dicembre 2021</p>
+              <p className="font-bold">Arte Moderna e Contemporanea</p>
+              <p className="font-bold">Milano, 21-22 Dicembre 2021</p>
             </div>
           </div>
         </div>
         <div className="max-w-[350px] min-h-[478px] md:max-w-[316px] relative shadow-custom-all">
-        <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
+          <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
             <img src={EyeIcon} alt="" className="text-white" />
             <p>1359</p>
           </div>
@@ -131,10 +132,10 @@ const SearchResult = () => {
           </div>
           <div className="mt-8 flex flex-col gap-6 p-4">
             <p>Spilla in argento e oro a forma di rana stilizzata.</p>
-            <div>
+            <div className="text-sm">
               <p>Asta</p>
-              <p>Arte Moderna e Contemporanea</p>
-              <p>Milano, 21-22 Dicembre 2021</p>
+              <p className="font-bold">Arte Moderna e Contemporanea</p>
+              <p className="font-bold">Milano, 21-22 Dicembre 2021</p>
             </div>
           </div>
         </div>
