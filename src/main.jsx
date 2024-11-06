@@ -7,12 +7,18 @@ import SearchPage from "./pages/SearchPage.jsx";
 import SearchResultPage from "./pages/SearchResultPage.jsx";
 import SearchinghtPage from "./pages/SearchingPage.jsx";
 import ContactMenuFilledPage from "./pages/ContactMenuFilledPage.jsx";
+import ContactConfirmedPage from "./pages/ContactConfirmedPage.jsx";
+import HomePage from "./pages/HomePage.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "",
+        element: <HomePage />,
+      },
       {
         path: "contactpage",
         element: <ContactPage />,
@@ -32,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "contactfilled",
         element: <ContactMenuFilledPage />,
+      },
+      {
+        path: "contactconfirmed",
+        element: <ContactConfirmedPage />,
       },
     ],
   },

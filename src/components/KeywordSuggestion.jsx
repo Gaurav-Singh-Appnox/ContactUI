@@ -1,6 +1,6 @@
 const KeywordSuggestion = () => {
   return (
-    <div className="flex mt-8 gap-4 overflow-x-auto scroll-snap-type-x mandatory">
+    <div className="flex mt-8 gap-4 overflow-x-auto scroll-snap-type-x mandatory font-inter">
       <div className="h-11 rounded-full px-8 py-[14px] bg-black text-white flex justify-center items-center scroll-snap-align-start">
         <p>Turtle</p>
       </div>

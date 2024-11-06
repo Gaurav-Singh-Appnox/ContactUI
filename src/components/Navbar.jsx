@@ -5,8 +5,8 @@ import { FaChevronDown } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-5 border-b border-gray-300 ">
-      <p className="text-[28px]">Mediartrade</p>
+    <div className="flex justify-between p-5 border-b border-gray-300 font-inter ">
+      <p className="text-[28px] font-dm-serif">Mediartrade</p>
       <div className="flex gap-5 items-center">
         <div className="w-6 h-6 flex items-center justify-center md:hidden ">
           <img className="w-5 h-[18px]" src={loginIcon} alt="" />

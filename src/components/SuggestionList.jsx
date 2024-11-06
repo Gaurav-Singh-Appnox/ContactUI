@@ -1,6 +1,6 @@
 const SuggestionList = () => {
   return (
-    <div className="mt-20 flex flex-col gap-8 md:gap-12 md:mt-[130px]">
+    <div className="mt-20 flex flex-col gap-8 md:gap-12 md:mt-[130px] font-inter">
       <p className="font-bold text-sm md:text-base">Suggerimenti</p>
       <div>
         <p className="text-2xl text-gray-300 md:text-[40px]">

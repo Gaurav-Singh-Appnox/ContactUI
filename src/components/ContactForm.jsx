@@ -4,11 +4,11 @@ const ContactForm = () => {
   return (
     <div>
       <div className="w-full  mt-12 md:mt-[80px] ">
-        <h1 className="text-[40px] md:text-14 font-bold text-center">
+        <h1 className="text-[40px] md:text-14 font-bold text-center font-dm-serif">
           Contattaci
         </h1>
       </div>
-      <form className="mt-10 flex flex-col gap-4">
+      <form className="mt-10 flex flex-col gap-4 font-inter">
         <div className="flex flex-col md:flex-row w-full gap-4">
           <input
             type="text"
