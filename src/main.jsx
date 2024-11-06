@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ContactPage from "./pages/ContactPage.jsx";
 import SearchPage from "./pages/SearchPage.jsx";
 import SearchResultPage from "./pages/SearchResultPage.jsx";
-import SearchinghtPage from "./pages/SearchingPage.jsx";
 import ContactMenuFilledPage from "./pages/ContactMenuFilledPage.jsx";
 import ContactConfirmedPage from "./pages/ContactConfirmedPage.jsx";
 
@@ -25,10 +24,6 @@ const router = createBrowserRouter([
       {
         path: "searchpage",
         element: <SearchPage />,
-      },
-      {
-        path: "searchingpage",
-        element: <SearchinghtPage />,
       },
       {
         path: "contactfilled",

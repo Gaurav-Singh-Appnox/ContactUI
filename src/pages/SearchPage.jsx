@@ -23,7 +23,7 @@ const SearchPage = () => {
       <div className="px-5 md:px-[120px] md:mt-[88px]">
         <input
           type="text"
-          className="text-[60px] md:text-[120px] mb-2"
+          className=" w-full text-[60px] md:text-[120px] mb-2 focus:outline-none"
           placeholder="Cerca"
         />
         <div className="h-[6px] bg-gray-300 w-full md:hidden"></div>

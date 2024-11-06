@@ -9,24 +9,35 @@ import { NavLink } from "react-router-dom";
 const Navbar = ({ searchBtn, onSearchClick }) => {
   return searchBtn ? (
     <div className="w-full min-h-[72px] mt-[44px] md:mt-0 flex flex-row-reverse items-center">
-      <img
-        src={crossIcon}
-        alt="Close Search"
-        className="w-6 h-6 mr-5"
-        onClick={onSearchClick} // Use passed-in function directly
-      />
+      <NavLink to={"/"}>
+        {" "}
+        <img
+          src={crossIcon}
+          alt="Close Search"
+          className="w-6 h-6 mr-5"
+          onClick={onSearchClick}
+        />
+      </NavLink>
     </div>
   ) : (
     <div className="flex justify-between p-5 border-b border-gray-300 font-inter">
       <p className="text-[28px] font-dm-serif">Mediartrade</p>
       <div className="flex gap-5 items-center">
         <div className="w-6 h-6 flex items-center justify-center md:hidden">
-          <img className="w-5 h-[18px]" src={loginIcon} alt="Login" />
+          <NavLink to={"/contactpage"}>
+            <img className="w-5 h-[18px]" src={loginIcon} alt="Login" />
+          </NavLink>
         </div>
         <div className="items-center gap-4 mr-4 hidden md:flex">
-          <div><p>Prossime Aste</p></div>
-          <div><p>Private Sale</p></div>
-          <div><p>Accedi</p></div>
+          <div>
+            <p>Prossime Aste</p>
+          </div>
+          <div>
+            <p>Private Sale</p>
+          </div>
+          <div>
+            <p>Accedi</p>
+          </div>
           <div className="relative">
             <select name="" id="" className="appearance-none">
               <option value="">IT</option>
