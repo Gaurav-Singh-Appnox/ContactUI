@@ -17,7 +17,7 @@ const SearchResult = () => {
           1.364
         </button>
       </div>
-      <div className="flex flex-wrap gap-16 md:gap-10">
+      <div className="flex justify-center  flex-wrap gap-16 md:gap-10">
         <div className="max-w-[350px] max-h-[478px] md:max-w-[316px]">
           <div>
             <img src={turtle} alt="" className="w-full" />

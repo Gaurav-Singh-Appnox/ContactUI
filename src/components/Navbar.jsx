@@ -4,7 +4,7 @@ import loginIcon from "../assets/login.svg";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-5 ">
+    <div className="flex justify-between p-5 border-b border-black ">
       <p className="text-[28px]">Mediartrade</p>
       <div className="flex gap-5 items-center">
         <div className="w-6 h-6 flex items-center justify-center ">
