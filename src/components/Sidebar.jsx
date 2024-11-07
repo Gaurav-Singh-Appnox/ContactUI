@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="hidden md:w-[5%] md:flex flex-col justify-between items-center my-3 h-screen ">
+    <div className="hidden md:w-[5%] md:flex flex-col justify-between items-center my-3 h-screen  top-0 left-0 ">
       <div className="h-14 w-14 flex justify-center items-center">
         <NavLink to={"/contactpage"}>
           <img src={loginBtn} alt="" className="h-8 w-8" />

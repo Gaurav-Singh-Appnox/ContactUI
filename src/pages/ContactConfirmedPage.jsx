@@ -11,7 +11,7 @@ const ContactConfirmedPage = () => {
         <Sidebar />
         <VerticalLine />
 
-        <div className="flex-1 flex justify-center items-center min-h-screen px-5 font-inter ">
+        <div className="flex-1 flex justify-center items-center  px-5 font-inter ">
           <div className="flex flex-col items-center gap-10 md:gap-12">
             <div className="w-14 h-14 rounded-full p-3 border-[2px] border-gray-300">
               <img src={checkIcon} alt="" />
