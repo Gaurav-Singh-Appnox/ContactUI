@@ -15,12 +15,12 @@ const SearchResultPage = () => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex fixed">
       <Sidebar />
       <VerticalLine />
-      <div>
+      <div className="w-[95%]">
         <Navbar searchBtn={searchBtn} onSearchClick={handleSearchClick} />
-        <div className="mt-[60px] px-5 md:px-16 md:mt-40">
+        <div className=" pt-32 px-5 md:px-16 h-[80vh] overflow-y-scroll ">
           <SearchResult />
         </div>
       </div>

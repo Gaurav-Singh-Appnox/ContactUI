@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = ({ searchBtn, onSearchClick }) => {
   return searchBtn ? (
-    <div className="w-full min-h-[72px] mt-[44px] md:mt-0 flex flex-row-reverse items-center  ">
+    <div className="w-full mt-[44px] md:mt-0 flex flex-row-reverse items-center  ">
       <NavLink to={"/"}>
         {" "}
         <img

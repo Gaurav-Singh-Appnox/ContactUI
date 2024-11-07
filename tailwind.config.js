@@ -10,6 +10,7 @@ export default {
         "dm-serif": ['"DM Serif Display"', "serif"],
         "inter": ['"inter"', "serif"],
       },
+      
     },
   },
   plugins: [],
